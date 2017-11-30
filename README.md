@@ -1,2 +1,2 @@
 # A_o_C_2017
-Source code for solving Advent of Code 2017 problems.
+Source code for solving AoC programming puzzles.
