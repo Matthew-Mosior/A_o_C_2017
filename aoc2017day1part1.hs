@@ -20,4 +20,4 @@ answer :: String -> Int
 answer input = quot (sum(unpair(filter(uncurry(==)) (pairs(convert(input)))))) 2
 
 main :: IO ()
-main = putStrLn ("This Haskell script will return the answer.")
+main = putStrLn ("This Haskell script will return the answer to the advent of code 2017 day 1 part 1 puzzle.")
