@@ -11,6 +11,7 @@ convert input = map(read.(:"")) input
 pairs :: [a] -> [(a,a)]
 pairs xs = zip xs (tail xs)
 
+--unpair
 unpair :: [(a,a)] -> [a]
 unpair [] = []
 unpair ((x1,x2):xs) = x1:x2:unpair xs
