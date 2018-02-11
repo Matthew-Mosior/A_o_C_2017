@@ -13,7 +13,6 @@ chop _ [] = []
 chop f as = b : chop f as'
   where (b, as') = f as
 
-
 --divvy
 divvy :: Int -> Int -> [a] -> [[a]]
 divvy _ _ [] = []
