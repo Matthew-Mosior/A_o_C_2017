@@ -23,7 +23,7 @@ answer xs = length (snd (partition (any (\x -> length x > 1)) (grouper xs)))
 --Main function.
 main :: IO ()
 main = do
-    inputfile <- readFile "/run/media/mmosior/Data/Data/Haskell/AdventOfCode/2017/puzzle_input/day4input.txt"
+    inputfile <- readFile "day4input.txt"
     let answerofinput = answer inputfile 
     print (answerofinput)
 
