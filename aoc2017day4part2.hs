@@ -50,7 +50,7 @@ answer xs ys = (length xs) - (length ys)
 --Main function.
 main :: IO ()
 main = do
-    inputfile <- readFile "/run/media/mmosior/Data/Data/Haskell/AdventOfCode/2017/puzzle_input/day4input.txt"
+    inputfile <- readFile "day4input.txt"
     let answerofinput = answer (linefeed inputfile) (anagramfilter (mappedallpairs inputfile))
     print (answerofinput)
 
